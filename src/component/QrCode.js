@@ -36,7 +36,7 @@ export default function QrCode() {
   }
 
   return (
-    <div className="container col-sm-6 position-static">
+    <div className="container col-sm-6 p-5">
       <div className="text-center my-4">
         {img && <img src={img} className="img-fluid qr-code-image" alt="QR Code" />}
         {loading && <p>Please Wait...</p>}
