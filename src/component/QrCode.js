@@ -29,6 +29,7 @@ export default function QrCode() {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+        // link.focus()
       })
       .catch((error) => {
         console.error("Error Download Qr Code ", error);
